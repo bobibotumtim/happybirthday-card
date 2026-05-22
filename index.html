@@ -65,14 +65,13 @@
             top: 0;
             left: 0;
             pointer-events: none;
-            z-index: 5;
+            z-index: 1;
             opacity: 0;
             transition: opacity 0.5s ease;
         }
         
         .dogs-container.show {
             opacity: 1;
-            pointer-events: auto;
         }
 
         .dog {
@@ -83,6 +82,7 @@
             transition: transform 0.3s;
             filter: drop-shadow(0 5px 10px rgba(0,0,0,0.3));
             pointer-events: auto;
+            opacity: 0.6;
         }
 
         .dog:hover {
@@ -122,7 +122,7 @@
             top: 0;
             left: 0;
             pointer-events: none;
-            z-index: 1;
+            z-index: 2;
         }
 
         .balloon {
@@ -294,7 +294,7 @@
     </div>
 
     <audio id="bgMusic" loop>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        <source src="https://www.mboxdrive.com/saeng-il-chuk-ha-ham-ni-da-happy-birthday-song-in-korean.mp3" type="audio/mpeg">
     </audio>
 
     <script>
